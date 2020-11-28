@@ -9,7 +9,7 @@ class Landing extends Component {
   render() {
     return (
       <Wrapper>
-        <Navigation />
+        {/* <Navigation /> */}
         <Triangles />
         <WelcomeHeader />
         <CodeBox />
