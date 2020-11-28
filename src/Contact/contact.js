@@ -55,19 +55,19 @@ class Contact extends Component {
               </InfoBottomRight>
             </InfoBottom>
           </InfoContainer>
-          <FormContainer>
-
+          <FormContainer name="contact" method="POST">
+            <input type="hidden" name="form-name" value="Contact" />
             <FormNameContainer>
               <FormHolder>
                 <FormLabel>Name</FormLabel>
-                <FormName type="text" required/>
+                <FormName type="text" name="name" required/>
               </FormHolder>
               
             </FormNameContainer>
             <FormEmailContainer>
               <FormHolder>
                 <FormLabel>Email</FormLabel>
-                <FormEmail type="email" required/>
+                <FormEmail type="email" name="email" required/>
               </FormHolder>
 
               
@@ -75,7 +75,7 @@ class Contact extends Component {
             <FormMessageContainer>
               <FormHolder message>
                 <FormLabel>Message</FormLabel>
-                <FormMessage required/>
+                <FormMessage name="message" required/>
               </FormHolder>
               
             </FormMessageContainer>
