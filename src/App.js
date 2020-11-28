@@ -34,4 +34,4 @@ const Wrapper = styled.div`
   // border: 2px solid red;
 `;
 
-const Buffer = styled.div` height: 100vh; width: 100vw; display: block; border: 2pxs solid red;`;
+// const Buffer = styled.div` height: 100vh; width: 100vw; display: block; border: 2pxs solid red;`;

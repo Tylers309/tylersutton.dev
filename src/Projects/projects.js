@@ -104,10 +104,10 @@ const ProjectImg = styled.img`
   border: 4px solid #707070;
 `;
 
-const ProjectText = styled.p`
-  font-size: 16px;
-  padding: 10px 0;
-`;
+// const ProjectText = styled.p`
+//   font-size: 16px;
+//   padding: 10px 0;
+// `;
 
 const ProjectLink = styled.a`
   text-decoration: none;

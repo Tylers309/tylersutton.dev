@@ -348,5 +348,3 @@ const FormSubmitButton = styled.button`
   color: #707070;
   background-color: #fff;
 `;
-
-const Buffer = styled.div` height: 100vh; width: 100vw; display: block; border: 2pxs solid red;`;
