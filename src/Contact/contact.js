@@ -55,7 +55,7 @@ class Contact extends Component {
               </InfoBottomRight>
             </InfoBottom>
           </InfoContainer>
-          <FormContainer name="contact" method="POST">
+          <FormContainer name="Contact" method="POST" netlify>
             <input type="hidden" name="form-name" value="Contact" />
             <FormNameContainer>
               <FormHolder>
