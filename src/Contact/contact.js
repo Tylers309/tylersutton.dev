@@ -41,49 +41,43 @@ class Contact extends Component {
               </InfoBottomLeft>
               <InfoBottomRight>
                 <InfoText>
-                I really appreciate you 
-                checking out my website and
-                sticking around. This site
-                is a constant work in progress.
-                Constantly! (I think it's been
-                fully redesigned like 6 times)
-
-                Either way, you seem like a cool
-                person! If you could fill the form 
-                here and I'll email you asap! :)
+                
+                You can get ahold of me by one of the links to the side. 
+                 <br/><br/>
+                Contact me via email at <a href="mailto:contact@tylersutton.us">contact@tylersutton.us</a>
                 </InfoText>
               </InfoBottomRight>
             </InfoBottom>
           </InfoContainer>
-          <FormContainer name="Contact" method="POST" netlify>
-            <input type="hidden" name="form-name" value="Contact" />
-            <FormNameContainer>
-              <FormHolder>
-                <FormLabel>Name</FormLabel>
-                <FormName type="text" name="name" required/>
-              </FormHolder>
+//           <FormContainer name="Contact" method="POST" netlify>
+//             <input type="hidden" name="form-name" value="Contact" />
+//             <FormNameContainer>
+//               <FormHolder>
+//                 <FormLabel>Name</FormLabel>
+//                 <FormName type="text" name="name" required/>
+//               </FormHolder>
               
-            </FormNameContainer>
-            <FormEmailContainer>
-              <FormHolder>
-                <FormLabel>Email</FormLabel>
-                <FormEmail type="email" name="email" required/>
-              </FormHolder>
+//             </FormNameContainer>
+//             <FormEmailContainer>
+//               <FormHolder>
+//                 <FormLabel>Email</FormLabel>
+//                 <FormEmail type="email" name="email" required/>
+//               </FormHolder>
 
               
-            </FormEmailContainer>
-            <FormMessageContainer>
-              <FormHolder message>
-                <FormLabel>Message</FormLabel>
-                <FormMessage name="message" required/>
-              </FormHolder>
+//             </FormEmailContainer>
+//             <FormMessageContainer>
+//               <FormHolder message>
+//                 <FormLabel>Message</FormLabel>
+//                 <FormMessage name="message" required/>
+//               </FormHolder>
               
-            </FormMessageContainer>
-            <FormButtonContainer>
-              <FormSubmitButton>Submit</FormSubmitButton>
-            </FormButtonContainer>
+//             </FormMessageContainer>
+//             <FormButtonContainer>
+//               <FormSubmitButton>Submit</FormSubmitButton>
+//             </FormButtonContainer>
             
-          </FormContainer>
+//           </FormContainer>
         </ContactHolder>
         
       </Wrapper>
@@ -130,7 +124,7 @@ const ContactHolder = styled.div`
 const InfoContainer = styled.div`
 
   @media (max-width: 768px) {
-    height: 45%;
+    height: 100%;
     width: 100%;
 
     display: block;
@@ -138,7 +132,7 @@ const InfoContainer = styled.div`
   }
 
   height: 100%;
-  width: 49%;
+  width: 100%;
 
   float: left;
 
