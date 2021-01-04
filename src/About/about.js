@@ -14,16 +14,15 @@ class About extends Component {
 
             <TextContainer>
               <AboutText>
-              Hi, my name is Tyler Sutton. I'm 19 years old and have been interested in the web for around 5 years now.
+              Hi, my name is Tyler Sutton. I'm 19 years old and have made web development my hobby for the past 5 years.
               <br/>
               <br/>
 I started learning about the internet and found how easy it was to start creating a website and the rest was a snowball effect.
-Creating many websites and web apps weaved it's way into a position in IT. After being in Information Technology for 1 and some odd months 
-I'm now the IT Manager for a local economic powerhouse in my hometown of Meridian, Mississippi! I've passed Comptia's Security+ and am well
-on my to being Network+ certified.
+After creating many websites and web apps weaved it's way into a position in Information Technology. After being in IT for 2 years now 
+I'm now the IT Manager for a local business in Meridian, Mississippi! In IT I've passed Comptia's Security+ and am studying for my Network+.
               <br/>
               <br/>
-I'm confident in HTML, CSS (oof), Javascript, Nodejs, SQL, React, and React Native. More of a developer with some occasional designer tendencies.
+In web development I'm proficient in HTML, CSS, Javascript, Nodejs, SQL, React, and React Native. I'm more of a developer with some occasional designer tendencies.
               </AboutText>
             </TextContainer>
           </TextSectionHolder>
