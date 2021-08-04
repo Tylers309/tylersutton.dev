@@ -14,7 +14,7 @@ class About extends Component {
 
             <TextContainer>
               <AboutText>
-              Hi, my name is Tyler Sutton. I'm 19 years old and have made web development my hobby for the past 5 years.
+              Hi, my name is Tyler Sutton. I'm 20 years old and have made web development my hobby for the past 5 years.
               <br/>
               <br/>
 I started learning about the internet and found how easy it was to start creating a website and the rest was a snowball effect.
